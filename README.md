@@ -60,7 +60,19 @@
 
 ![Gambar 7](SS/ss7.png)
 
+### CARA KERJA PROGRAM 
+1. Program akan dimulai dengan memanggil fungsi menu()
+2. Pengguna memilih satu opsi. 
+    - (L)ihat: menampilan data mahasiswa
+    - (T)ambah: menambahkan data baru
+    - (U)bah: Mengubah data berdasarkan NIM 
+    - (H)apus: Menghapus data berdasarkan NIM 
+    - (C)ari: Mencari data berdasarkan NIM
+    - (K)eluar: Mengakhiri program 
+3. Program akan terus berjalan hingga kita memilih opsi K untuk keluar dari program. 
 
+### KODE PRORAM 
 
+![Gambar 8](SS/ss8.png)
 
-
+![Gambar 9](SS/ss9.png)
