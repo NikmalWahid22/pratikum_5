@@ -76,3 +76,71 @@
 ![Gambar 8](SS/ss8.png)
 
 ![Gambar 9](SS/ss9.png)
+
+
+### Hasil kode Program 
+Berikut merupakan hasil dari kode program apabila tidak ada data yang diinputkan. 
+
+![Gambar 10](SS/ss10.png)
+
+Berikut merupakan hasil dari kode program apabila terdapat data yang diinputkan. 
+
+![Gambar 11](SSS/ss11.png)
+
+
+### FLOWCHART 
+## MULAI PROGRAM
+- Program dimulai dengan menginisialisasi dictionary kosong data_mahasiswa untuk menyimpan data mahasiswa. 
+
+## Tampilkan menu. 
+- Program akan menampilkan menu utama seperti berikut:
+    - (L)ihat: menampilan data mahasiswa
+    - (T)ambah: menambahkan data baru
+    - (U)bah: Mengubah data berdasarkan NIM 
+    - (H)apus: Menghapus data berdasarkan NIM 
+    - (C)ari: Mencari data berdasarkan NIM
+    - (K)eluar: Mengakhiri program 
+
+## Input Pilihan 
+Program akan meminta pengguna untuk memasukkan pilihan. 
+
+## Keputusan Pilihan 
+Praogram akan memeriksa apakah pilihan pengguna valid 
+- Jika Valid maka maka program akan melanjutkan proses sesuai dengan pilihan. 
+    - (L)ihat: menampilan data mahasiswa
+    - (T)ambah: menambahkan data baru
+    - (U)bah: Mengubah data berdasarkan NIM 
+    - (H)apus: Menghapus data berdasarkan NIM 
+    - (C)ari: Mencari data berdasarkan NIM
+    - (K)eluar: Mengakhiri program 
+- Jika tidak valid
+    - Tampilkan pesan "Pilihan tidak valid"
+    - Kembali ke menu 
+
+## Proses berdasarkan pilihan 
+- Lihat 
+    - Jika data mahasiswa kosong maka program akan menampilkan pesan "Tidak ada data" 
+    - Jika ada data maka program akan menampilkan data mahasiswa NIM, Nama Mahasiswa, Nilai Tugas, UTS, dan UAS
+- Tambah 
+    - Input NIM, Nama, Nlai Tugas, UTS Dan UAS. 
+    - Program akan menghitung keseluruhan nilai dengan rumus 
+      akhir = Tugas * 0,3 + UTS * 3,5 + UAS * 3,5 
+    - Program akan menyimpan data ke dictionary dan program akan menampilkan pesan "Data berhasil ditambahkan"
+- Input 
+    - Input NIM yang ingin diubah 
+    - Program akan memeriksa apakah NIM ditemukan atau tidak
+    - Jika ditemukan maka program akan meminta data baru dan program akan memperbaruinya. 
+    - Jika tidak ditemukan maka program akan menampilkan pesan " Data tidak ditemukan" 
+- Hapus 
+    - Input NIM yang ingin dihapus 
+    - Program akan memeriksa NIM 
+    - Jika ditemukan: Hapus data dictionary
+    - Jika tidak ditemukan maka program akan menampilkan pesan " Data tidak ditemukan"
+
+- Cari 
+    - Input NIM mahasiswa yang ingin dicari 
+    - Program akan memeriksa NIM 
+    - Jika ditemukan program akan menampilkan Data
+    - Jika tidak ditemukan maka program akan menampilkan pesan " Data tidak ditemukan"
+- Keluar 
+    - Jika kita memilih Keluar, program akan selesai 
