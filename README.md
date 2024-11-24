@@ -81,7 +81,7 @@
 ### Hasil kode Program 
 Berikut merupakan hasil dari kode program apabila tidak ada data yang diinputkan. 
 
-![Gambar 10](SS/ss10.png)
+![Gambar 10](SS/SS10.png)
 
 Berikut merupakan hasil dari kode program apabila terdapat data yang diinputkan. 
 
