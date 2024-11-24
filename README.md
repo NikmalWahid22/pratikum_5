@@ -9,7 +9,7 @@
 
 ### Fungsi tampilkan_data()
 - Fungsi digunakan untuk menampikan data mahasiswa dalam bentuk tabel. 
-- Heade tabel menggunakan format string agar data tersusun rapi. 
+- HeadeR tabel menggunakan format string agar data tersusun rapi. 
 - Jika data_mahasiswa kosong, maka akan terdapat pesan "Tidak ada data". 
 - Menggunakan enumerate() untuk memberikan nomor urut pada data. 
 
@@ -85,10 +85,13 @@ Berikut merupakan hasil dari kode program apabila tidak ada data yang diinputkan
 
 Berikut merupakan hasil dari kode program apabila terdapat data yang diinputkan. 
 
-![Gambar 11](SSS/ss11.png)
+![Gambar 11](SS/ss11.png)
 
 
 ### FLOWCHART 
+
+![Gambar 12](SS/ss12.png)
+
 ## MULAI PROGRAM
 - Program dimulai dengan menginisialisasi dictionary kosong data_mahasiswa untuk menyimpan data mahasiswa. 
 

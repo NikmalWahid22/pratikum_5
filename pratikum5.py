@@ -9,7 +9,7 @@ def tampilkan_data():
         for i, (nim, data) in enumerate(data_mahasiswa.items(), start=1):
             print(f"{i:<4}| {nim:<8} | {data['nama']:<10} | {data['tugas']:<6} | {data['uts']:<6} | {data['uas']:<6} | {data['akhir']:<5.2f}")
     else:
-        print("Tidak Ada Data".center(66))
+        print("|                           Tidak Ada Data                     |")
     print("="*66)
 
 def tambah_data():
